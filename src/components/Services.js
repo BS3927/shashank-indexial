@@ -1,0 +1,490 @@
+import React from "react";
+import service from "../img/services.svg";
+import service2 from "../img/services2.svg";
+import Client1 from "../img/clients/client-1.png";
+import Client2 from "../img/clients/client-2.png";
+import Client3 from "../img/clients/client-3.png";
+import Client4 from "../img/clients/client-4.png";
+import Client5 from "../img/clients/client-5.png";
+import Client6 from "../img/clients/client-6.png";
+import Client7 from "../img/clients/client-7.png";
+import Client8 from "../img/clients/client-8.png";
+
+const Services = () => {
+  return (
+    <>
+      <section id="intro" className="clearfix">
+        <div className="container">
+          <div className="intro-img">
+            <img
+              src={service}
+              height="1000000px"
+              width="100000px"
+              alt="Services"
+              className="img-fluid"
+            />
+          </div>
+
+          <div className="intro-info">
+            <h2>
+              We build <span>services</span>
+              <br />
+              for tomorrow!
+            </h2>
+            <div>
+              <a
+                href="Under_Maintenance.html"
+                className="btn-services scrollto"
+              >
+                get a quote
+              </a>
+              <a
+                href="https://wa.me/918624922118"
+                className="btn-get-started scrollto "
+              >
+                chat
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <main id="main">
+        <section id="about">
+          <div className="container">
+            <header className="section-header">
+              <h3>What We Offer</h3>
+              <p>
+                Indexial solutions offers a wide range of services to our
+                individual and business clients. Our client receive personalized
+                service that is beyond comparison.
+              </p>
+            </header>
+
+            <div className="row about-container">
+              <div className="col-lg-6 content order-lg-1 order-2">
+                <div className="icon-box wow fadeInUp">
+                  <div className="icon">
+                    <i className="fa fa-rss"></i>
+                  </div>
+                  <h4 className="title">
+                    <a href="">Digitalization of business</a>
+                  </h4>
+                  <p className="description">
+                    {" "}
+                    We can help to rebuilt and rebrand your business models,
+                    products and customer experiences to drive new value for
+                    your venture
+                  </p>
+                </div>
+
+                <div className="icon-box wow fadeInUp" data-wow-delay="0.2s">
+                  <div className="icon">
+                    <i className="fa fa-laptop"></i>
+                  </div>
+                  <h4 className="title">
+                    <a href="">digitalization of Operations</a>
+                  </h4>
+                  <p className="description">
+                    ERP is the integrated management of core business processes,
+                    often in real-time and mediated by software and
+                    technology.The basic goal of ERP system is to provide one
+                    central repository for all information that is shared by all
+                    the various ERP facets to improve the flow of data across
+                    the organization.
+                  </p>
+                </div>
+
+                <div className="icon-box wow fadeInUp" data-wow-delay="0.4s">
+                  <div className="icon">
+                    <i className="fa fa-id-badge"></i>
+                  </div>
+                  <h4 className="title">
+                    <a href="">Digitalize System and Environment</a>
+                  </h4>
+                  <p className="description">
+                    Our professional engineers are waiting to serve you a
+                    digital system and digital environment to focus your time,
+                    energy and conversation around people who inspire you,
+                    support you and help you to grow you into your happiest,
+                    strongest, wisest self.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+                <img src={service2} className="img-fluid" alt="Services" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="services" className="section-bg">
+          <div className="container">
+            <header className="section-header">
+              <h3>Services for Digital Transformation</h3>
+              <p>
+                We offer services with dedicated experts and best technologies
+                that that can transfrom world to be a better place to live
+              </p>
+            </header>
+
+            <div className="row">
+              <div
+                className="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp"
+                data-wow-duration="1.4s"
+              >
+                <div className="box">
+                  <div className="icon">
+                    <i
+                      className="ion-ios-world-outline"
+                      style={{ color: "#ff689b" }}
+                    ></i>
+                  </div>
+                  <h4 className="title">
+                    <a href="">Web Application Development</a>
+                  </h4>
+                  <p className="description">
+                    Web development is a broad term for the work involved in
+                    developing a web site for the Internet or an intranet. Web
+                    development can range from developing a simple single static
+                    page of plain text to complex web-based internet
+                    applications electronic businesses, and social network
+                    services.
+                    <br />
+                    <a href="Under_Maintenance.html">
+                      {" "}
+                      <button className="button button100">know More</button>
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <div
+                className="col-md-6 col-lg-5 wow bounceInUp"
+                data-wow-duration="1.4s"
+              >
+                <div className="box">
+                  <div className="icon">
+                    <i
+                      className="ion-ios-monitor-outline"
+                      style={{ color: "#e9bf06" }}
+                    ></i>
+                  </div>
+                  <h4 className="title">
+                    <a href="">UI/UX Design</a>
+                  </h4>
+                  <p className="description">
+                    User Interface Design is its compliment, the look and feel,
+                    the presentation and interactivity of a product. But like
+                    UX, it is easily and often confused by the industries that
+                    employ UI Designers. design or user interface engineering is
+                    the design of user interfaces for machines and software{" "}
+                    <br />
+                    <a href="Under_Maintenance.html">
+                      {" "}
+                      <button className="button button100">know More</button>
+                    </a>
+                  </p>
+                </div>
+              </div>
+
+              <div
+                className="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp"
+                data-wow-delay="0.1s"
+                data-wow-duration="1.4s"
+              >
+                <div className="box">
+                  <div className="icon">
+                    <i
+                      className="ion-android-options"
+                      style={{ color: "#3fcdc7" }}
+                    ></i>
+                  </div>
+                  <h4 className="title">
+                    <a href="">Embedded Design</a>
+                  </h4>
+                  <p className="description">
+                    An embedded system is a programmed controlling and operating
+                    system with a dedicated function within a larger mechanical
+                    or electrical system, often with real-time computing
+                    constraints <br />
+                    <a href="Under_Maintenance.html">
+                      {" "}
+                      <button className="button button100">know More</button>
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <div
+                className="col-md-6 col-lg-5 wow bounceInUp"
+                data-wow-delay="0.1s"
+                data-wow-duration="1.4s"
+              >
+                <div className="box">
+                  <div className="icon">
+                    <i
+                      className="ion-ios-speedometer-outline"
+                      style={{ color: "#41cf2e" }}
+                    ></i>
+                  </div>
+                  <h4 className="title">
+                    <a href="">Application Design</a>
+                  </h4>
+                  <p className="description">
+                    A comprehensive guide to app design. Developing a mobile
+                    application is a big investment, and the fundamental stages
+                    of the project should be providing a solid 'building
+                    material'.
+                    <br />
+                    <a href="Under_Maintenance.html">
+                      {" "}
+                      <button className="button button100">know More</button>
+                    </a>
+                  </p>
+                </div>
+              </div>
+
+              <div
+                className="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp"
+                data-wow-delay="0.2s"
+                data-wow-duration="1.4s"
+              >
+                <div className="box">
+                  <div className="icon">
+                    <i
+                      className="ion-social-android-outline"
+                      style={{ color: "#d6ff22" }}
+                    ></i>
+                  </div>
+                  <h4 className="title">
+                    <a href="">Mobile App Development</a>
+                  </h4>
+                  <p className="description">
+                    Mobile app development is the act or process by which a
+                    mobile app is developed for mobile devices, such as personal
+                    digital assistants, enterprise digital assistants or mobile
+                    phones.
+                    <br />
+                    <a href="Under_Maintenance.html">
+                      {" "}
+                      <button className="button button100">know More</button>
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <div
+                className="col-md-6 col-lg-5 wow bounceInUp"
+                data-wow-delay="0.2s"
+                data-wow-duration="1.4s"
+              >
+                <div className="box">
+                  <div className="icon">
+                    <i
+                      className="ion-ios-cloud-upload-outline"
+                      style={{ color: "#4680ff" }}
+                    ></i>
+                  </div>
+                  <h4 className="title">
+                    <a href="">Cloud Services</a>
+                  </h4>
+                  <p className="description">
+                    Cloud computing is shared pools of configurable computer
+                    system resources and higher-level services that can be
+                    rapidly provisioned with minimal management effort.
+                    <br />
+                    <a href="Under_Maintenance.html">
+                      {" "}
+                      <button className="button button100">know More</button>
+                    </a>
+                  </p>
+                </div>
+              </div>
+
+              <div
+                className="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp"
+                data-wow-delay="0.2s"
+                data-wow-duration="1.4s"
+              >
+                <div className="box">
+                  <div className="icon">
+                    <i
+                      className="ion-android-contract"
+                      style={{ color: "#d6ff22" }}
+                    ></i>
+                  </div>
+                  <h4 className="title">
+                    <a href="">Consulting </a>
+                  </h4>
+                  <p className="description">
+                    Our management consulting services focus on our clients'
+                    most critical issues and opportunities: strategy, marketing,
+                    organization, technology, transformation, digital, advanced
+                    analytics
+                    <br />
+                    <a href="Under_Maintenance.html">
+                      {" "}
+                      <button className="button button100">know More</button>
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <div
+                className="col-md-6 col-lg-5 wow bounceInUp"
+                data-wow-delay="0.2s"
+                data-wow-duration="1.4s"
+              >
+                <div className="box">
+                  <div className="icon">
+                    <i className="ion-image" style={{ color: " #4680ff" }}></i>
+                  </div>
+                  <h4 className="title">
+                    <a href="">QA Services</a>
+                  </h4>
+                  <p className="description">
+                    A good testing and QA services ensures to minimize the cost,
+                    mitigate risk, augment user experience levels by offering a
+                    creative solutions to improve product life cycle.
+                    <br />
+                    <a href="Under_Maintenance.html">
+                      {" "}
+                      <button className="button button100">know More</button>
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="why-us" className="wow fadeIn">
+          <div className="container">
+            <header className="section-header">
+              <h3>Trusted By</h3>
+              <p> 10+ Fortune 150 Companies</p>
+            </header>
+
+            <div className="row counters">
+              <div className="col-lg-3 col-6 text-center">
+                <span data-toggle="counter-up">280</span>
+                <p>Clients</p>
+              </div>
+
+              <div className="col-lg-3 col-6 text-center">
+                <span data-toggle="counter-up">32</span>
+                <p>Projects</p>
+              </div>
+
+              <div className="col-lg-3 col-6 text-center">
+                <span data-toggle="counter-up">20</span>
+                <p>Won Awards</p>
+              </div>
+
+              <div className="col-lg-3 col-6 text-center">
+                <span data-toggle="counter-up">50</span>
+                <p>Hard Workers</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="testimonials" className="section-bg">
+          <div className="container">
+            <header className="section-header">
+              <h3>Testimonials</h3>
+            </header>
+
+            <div className="row justify-content-center">
+              <div className="col-lg-8">
+                <div className="owl-carousel testimonials-carousel wow fadeInUp">
+                  <div className="testimonial-item">
+                    <img
+                      src="img/testimonial-1.jpg"
+                      className="testimonial-img"
+                      alt="Testimonial"
+                    />
+                    <h3>Kiran G</h3>
+                    <h4>Ceo &amp; Founder</h4>
+                    <p>
+                      We are quite satisfied with the services given byIndexial
+                    </p>
+                  </div>
+
+                  <div className="testimonial-item">
+                    <img
+                      src="img/testimonial-2.jpg"
+                      className="testimonial-img"
+                      alt="Testimonial"
+                    />
+                    <h3>Sanket K</h3>
+                    <h4>Project Manager</h4>
+                    <p>
+                      Quality is always there. Top of the game in terms of that
+                      Indexial
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="clients" className="wow fadeIn">
+          <div className="container">
+            <div className="section-header">
+              <h3>Our Clients</h3>
+            </div>
+
+            <div className="row no-gutters clients-wrap clearfix wow fadeInUp">
+              <div className="col-lg-3 col-md-4 col-xs-6">
+                <div className="client-logo">
+                  <img src={Client1} className="img-fluid" alt=" Our Clients" />
+                </div>
+              </div>
+
+              <div className="col-lg-3 col-md-4 col-xs-6">
+                <div className="client-logo">
+                  <img src={Client2} className="img-fluid" alt="Our Clients" />
+                </div>
+              </div>
+
+              <div className="col-lg-3 col-md-4 col-xs-6">
+                <div className="client-logo">
+                  <img src={Client3} className="img-fluid" alt="Our Clients" />
+                </div>
+              </div>
+
+              <div className="col-lg-3 col-md-4 col-xs-6">
+                <div className="client-logo">
+                  <img src={Client4} className="img-fluid" alt="Our Clients" />
+                </div>
+              </div>
+
+              <div className="col-lg-3 col-md-4 col-xs-6">
+                <div className="client-logo">
+                  <img src={Client5} className="img-fluid" alt="Our Clients" />
+                </div>
+              </div>
+
+              <div className="col-lg-3 col-md-4 col-xs-6">
+                <div className="client-logo">
+                  <img src={Client6} className="img-fluid" alt="Our Clients" />
+                </div>
+              </div>
+
+              <div className="col-lg-3 col-md-4 col-xs-6">
+                <div className="client-logo">
+                  <img src={Client7} className="img-fluid" alt="Our Clients" />
+                </div>
+              </div>
+
+              <div className="col-lg-3 col-md-4 col-xs-6">
+                <div className="client-logo">
+                  <img src={Client8} className="img-fluid" alt="Our Clients" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </>
+  );
+};
+
+export default Services;
