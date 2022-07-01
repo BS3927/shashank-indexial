@@ -18,7 +18,7 @@ const Careers = () => {
               <br />
             </h2>
             <div>
-              <a href="#services" class="btn-services scrollto">
+              <a href="#/services" class="btn-services scrollto">
                 Apply Now
               </a>
             </div>
@@ -41,7 +41,7 @@ const Careers = () => {
                     <i class="fa fa-wpforms"></i>
                   </div>
                   <h4 class="title">
-                    <a href="">How We Work</a>
+                    <a href="#/Careers">How We Work</a>
                   </h4>
                   <p class="description">
                     Working hard for things that we don't care about is stress,
@@ -56,7 +56,7 @@ const Careers = () => {
                     <i class="fa fa-thumbs-o-up"></i>
                   </div>
                   <h4 class="title">
-                    <a href="">Getting Things Done</a>
+                    <a href="#/Careers">Getting Things Done</a>
                   </h4>
                   <p class="description">
                     Strategize, execute and ship it! Done? Onto the next
@@ -69,7 +69,7 @@ const Careers = () => {
                     <i class="fa fa-hand-peace-o"></i>
                   </div>
                   <h4 class="title">
-                    <a href="">Enjoy Yourself</a>
+                    <a href="#/Careers">Enjoy Yourself</a>
                   </h4>
                   <p class="description">
                     While we are working hard, it is also important to take
