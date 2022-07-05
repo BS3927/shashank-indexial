@@ -9,7 +9,7 @@ const Footer = () => {
           <div class="row">
             <div class="col-lg-4 col-md-6 footer-info">
               <h3>
-                <a href="index.html" class="scrollto">
+                <a href="#/Home" class="scrollto">
                   <img src={Logo2} alt="logo" width="150" class="img-fluid" />
                 </a>
               </h3>
@@ -24,19 +24,19 @@ const Footer = () => {
               <h4>Useful Links</h4>
               <ul>
                 <li>
-                  <a href="index.html">Home</a>
+                  <a href="#/Home">Home</a>
                 </li>
                 <li>
-                  <a href="about.html">About us</a>
+                  <a href="#/About">About us</a>
                 </li>
                 <li>
-                  <a href="services.html">Services</a>
+                  <a href="#/Services">Services</a>
                 </li>
                 <li>
-                  <a href="products.html">Products</a>
+                  <a href="#/Products">Products</a>
                 </li>
                 <li>
-                  <a href="contact.html">Contact us</a>
+                  <a href="#/Contact">Contact us</a>
                 </li>
               </ul>
             </div>
@@ -45,13 +45,13 @@ const Footer = () => {
               <h4>Company</h4>
               <ul>
                 <li>
-                  <a href="Under_Maintenance.html">Blogs</a>
+                  <a href="">Blogs</a>
                 </li>
                 <li>
-                  <a href="newsandmedia.html">News</a>
+                  <a href="">News</a>
                 </li>
                 <li>
-                  <a href="Under_Maintenance.html">Support</a>
+                  <a href="">Support</a>
                 </li>
                 <li>
                   <a

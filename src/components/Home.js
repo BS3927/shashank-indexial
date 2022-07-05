@@ -32,12 +32,12 @@ const Home = () => {
             </h2>
             <div>
               <a
-                href="Under_Maintenance.html"
+                href="#/Home"
                 className="btn-get-started scrollto"
               >
                 Get Started
               </a>
-              <a href="services.html" className="btn-services scrollto">
+              <a href="#/Services" className="btn-services scrollto">
                 Our Services
               </a>
             </div>
