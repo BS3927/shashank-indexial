@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {Router} from 'react-router';
 import { createBrowserHistory } from "history";
+import 'bootstrap/dist/css/bootstrap.css'
 
 const history= createBrowserHistory();
 
