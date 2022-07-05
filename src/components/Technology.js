@@ -1,6 +1,7 @@
 import React from "react";
 import Tech1 from "../img/tech1.svg";
 import Tech2 from "../img/tech2.svg";
+import Info from "./Common";
 
 const Technology = () => {
   return (
@@ -268,36 +269,7 @@ const Technology = () => {
             </div>
           </div>
         </section>
-        <section id="why-us" class="wow fadeIn">
-          <div class="container">
-            <header class="section-header">
-              <h3>Trusted By</h3>
-              <p> 10+ Fortune 150 Companies</p>
-            </header>
-
-            <div class="row counters">
-              <div class="col-lg-3 col-6 text-center">
-                <span data-toggle="counter-up">280</span>
-                <p>Clients</p>
-              </div>
-
-              <div class="col-lg-3 col-6 text-center">
-                <span data-toggle="counter-up">32</span>
-                <p>Projects</p>
-              </div>
-
-              <div class="col-lg-3 col-6 text-center">
-                <span data-toggle="counter-up">20</span>
-                <p>Won Awards</p>
-              </div>
-
-              <div class="col-lg-3 col-6 text-center">
-                <span data-toggle="counter-up">80</span>
-                <p>Hard Workers</p>
-              </div>
-            </div>
-          </div>
-        </section>
+        <Info />
 
         <section id="testimonials" class="section-bg">
           <div class="container">

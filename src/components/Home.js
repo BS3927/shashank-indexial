@@ -1,4 +1,5 @@
 import React from "react";
+import Info from "./Common";
 import HomeImg from "../img/home.svg";
 import HomeImg2 from "../img/home2.svg";
 import Client1 from "../img/clients/client-1.png";
@@ -351,36 +352,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section id="why-us" className="wow fadeIn">
-          <div className="container">
-            <header className="section-header">
-              <h3>Trusted By</h3>
-              <p> 10+ Fortune 150 Companies</p>
-            </header>
-
-            <div className="row counters">
-              <div className="col-lg-3 col-6 text-center">
-                <span data-toggle="counter-up">280</span>
-                <p>Clients</p>
-              </div>
-
-              <div className="col-lg-3 col-6 text-center">
-                <span data-toggle="counter-up">32</span>
-                <p>Projects</p>
-              </div>
-
-              <div className="col-lg-3 col-6 text-center">
-                <span data-toggle="counter-up">20</span>
-                <p>Won Awards</p>
-              </div>
-
-              <div className="col-lg-3 col-6 text-center">
-                <span data-toggle="counter-up">80</span>
-                <p>Hard Workers</p>
-              </div>
-            </div>
-          </div>
-        </section>
+        <Info />
         <section id="testimonials" className="section-bg">
           <div className="container">
             <header className="section-header">
