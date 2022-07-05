@@ -30,8 +30,8 @@ const NewsandMedia = () => {
 
       <main id="main">
         <section id="about">
-          <div class="container">
-            <header class="section-header">
+          <div className="container">
+            <header className="section-header">
               <h3>In The News</h3>
               <p>
                 Find out what’s new with Indexial Solutions, our people and
@@ -41,49 +41,48 @@ const NewsandMedia = () => {
               </p>
             </header>
 
-            <div class="card-group">
+            <div className="card-group">
               <div
-                class="card"
-                class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp"
+                className="card col-md-6 col-lg-5 offset-lg-1 wow bounceInUp"
                 data-wow-duration="1.4s"
               >
-                <img class="card-img-top" src={Media} alt="Card image cap" />
-                <div class="card-body">
-                  <h5 class="card-title">Indeixal solutions news</h5>
-                  <p class="card-text">
+                <img className="card-img-top" src={Media} alt="Card image cap" />
+                <div className="card-body">
+                  <h5 className="card-title">Indeixal solutions news</h5>
+                  <p className="card-text">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
                     longer.
                   </p>
-                  <p class="card-text">
-                    <small class="text-muted">Read More</small>
+                  <p className="card-text">
+                    <small className="text-muted">Read More</small>
                   </p>
                 </div>
               </div>
-              <div class="card">
-                <img class="card-img-top" src={Media} alt="Card image cap" />
-                <div class="card-body">
-                  <h5 class="card-title">Indeixal solutions newse</h5>
-                  <p class="card-text">
+              <div className="card">
+                <img className="card-img-top" src={Media} alt="Card image cap" />
+                <div className="card-body">
+                  <h5 className="card-title">Indeixal solutions newse</h5>
+                  <p className="card-text">
                     This card has supporting text below as a natural lead-in to
                     additional content.
                   </p>
-                  <p class="card-text">
-                    <small class="text-muted">Read More</small>
+                  <p className="card-text">
+                    <small className="text-muted">Read More</small>
                   </p>
                 </div>
               </div>
-              <div class="card">
-                <img class="card-img-top" src={Media} alt="Card image cap" />
-                <div class="card-body">
-                  <h5 class="card-title">Indeixal solutions news</h5>
-                  <p class="card-text">
+              <div className="card">
+                <img className="card-img-top" src={Media} alt="Card image cap" />
+                <div className="card-body">
+                  <h5 className="card-title">Indeixal solutions news</h5>
+                  <p className="card-text">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This card has even longer
                     content than the first to show that equal height action.
                   </p>
-                  <p class="card-text">
-                    <small class="text-muted">Read More</small>
+                  <p className="card-text">
+                    <small className="text-muted">Read More</small>
                   </p>
                 </div>
               </div>
