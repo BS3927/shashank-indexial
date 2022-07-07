@@ -5,14 +5,7 @@ import AboutUs2 from "../img/aboutus2.svg";
 import Movie from "../img/movie.gif";
 import testimonial1 from "../img/testimonial-1.jpg";
 import testimonial2 from "../img/testimonial-2.jpg";
-import Client1 from "../img/clients/client-1.png";
-import Client2 from "../img/clients/client-2.png";
-import Client3 from "../img/clients/client-3.png";
-import Client4 from "../img/clients/client-4.png";
-import Client5 from "../img/clients/client-5.png";
-import Client6 from "../img/clients/client-6.png";
-import Client7 from "../img/clients/client-7.png";
-import Client8 from "../img/clients/client-8.png";
+import Clients from "./Reusable";
 
 const About = () => {
   return (
@@ -301,63 +294,7 @@ const About = () => {
         {/* #testimonials */}
 
         {/* Clients Section */}
-        <section id="clients" className="wow fadeIn">
-          <div className="container">
-            <div className="section-header">
-              <h3>Our Clients</h3>
-            </div>
-
-            <div className="row no-gutters clients-wrap clearfix wow fadeInUp">
-              <div className="col-lg-3 col-md-4 col-xs-6">
-                <div className="client-logo">
-                  <img src={Client1} className="img-fluid" alt=" Our Clients" />
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-4 col-xs-6">
-                <div className="client-logo">
-                  <img src={Client2} className="img-fluid" alt="Our Clients" />
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-4 col-xs-6">
-                <div className="client-logo">
-                  <img src={Client3} className="img-fluid" alt="Our Clients" />
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-4 col-xs-6">
-                <div className="client-logo">
-                  <img src={Client4} className="img-fluid" alt="Our Clients" />
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-4 col-xs-6">
-                <div className="client-logo">
-                  <img src={Client5} className="img-fluid" alt="Our Clients" />
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-4 col-xs-6">
-                <div className="client-logo">
-                  <img src={Client6} className="img-fluid" alt="Our Clients" />
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-4 col-xs-6">
-                <div className="client-logo">
-                  <img src={Client7} className="img-fluid" alt="Our Clients" />
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-4 col-xs-6">
-                <div className="client-logo">
-                  <img src={Client8} className="img-fluid" alt="Our Clients" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        <Clients />
       </main>
     </>
   );

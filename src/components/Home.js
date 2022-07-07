@@ -2,15 +2,10 @@ import React from "react";
 import Info from "./Common";
 import HomeImg from "../img/home.svg";
 import HomeImg2 from "../img/home2.svg";
-import Client1 from "../img/clients/client-1.png";
-import Client2 from "../img/clients/client-2.png";
-import Client3 from "../img/clients/client-3.png";
-import Client4 from "../img/clients/client-4.png";
-import Client5 from "../img/clients/client-5.png";
-import Client6 from "../img/clients/client-6.png";
-import Client7 from "../img/clients/client-7.png";
-import Client8 from "../img/clients/client-8.png";
-
+import Clients from "./Reusable";
+import testimonial1 from "../img/testimonial-1.jpg";
+import testimonial2 from "../img/testimonial-2.jpg";
+import Testimonials from "./Testimonials";
 const Home = () => {
   return (
     <>
@@ -32,10 +27,7 @@ const Home = () => {
               for greater evolutions.
             </h2>
             <div>
-              <a
-                href="#/Home"
-                className="btn-get-started scrollto"
-              >
+              <a href="#/Home" className="btn-get-started scrollto">
                 Get Started
               </a>
               <a href="#/Services" className="btn-services scrollto">
@@ -361,96 +353,40 @@ const Home = () => {
 
             <div className="row justify-content-center">
               <div className="col-lg-8">
-                <div className="owl-carousel testimonials-carousel wow fadeInUp">
-                  <div className="testimonial-item">
-                    <img
-                      src="img/testimonial-1.jpg"
-                      className="testimonial-img"
-                      alt=" Client Testimonial"
-                    />
-                    <h3>Kiran G</h3>
-                    <h4>Ceo &amp; Founder</h4>
-                    <p>
-                      We are quite satisfied with the services given byIndexial
-                    </p>
-                  </div>
-
-                  <div className="testimonial-item">
-                    <img
-                      src="img/testimonial-2.jpg"
-                      className="testimonial-img"
-                      alt="Client Testimonial"
-                    />
-                    <h3>Sanket K</h3>
-                    <h4>Project Manager</h4>
-                    <p>
-                      Quality is always there. Top of the game in terms of that
-                      Indexial
-                    </p>
-                  </div>
+                <div className="testimonial-item">
+                  <img
+                    src={testimonial1}
+                    className="testimonial-img"
+                    alt=" Client Testimonial"
+                  />
+                  <h3>Kiran G</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                  <p>
+                    We are quite satisfied with the services given byIndexial
+                  </p>
+                </div>
+                <br />
+                <br />
+                <div className="testimonial-item">
+                  <img
+                    src={testimonial2}
+                    className="testimonial-img"
+                    alt="Client Testimonial"
+                  />
+                  <h3>Sanket K</h3>
+                  <h4>Project Manager</h4>
+                  <p>
+                    Quality is always there. Top of the game in terms of that
+                    Indexial
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </section>
+        {/* <Testimonials /> */}
 
-        <section id="clients" className="wow fadeIn">
-          <div className="container">
-            <div className="section-header">
-              <h3>Our Clients</h3>
-            </div>
-
-            <div className="row no-gutters clients-wrap clearfix wow fadeInUp">
-              <div className="col-lg-3 col-md-4 col-xs-6">
-                <div className="client-logo">
-                  <img src={Client1} className="img-fluid" alt="Client" />
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-4 col-xs-6">
-                <div className="client-logo">
-                  <img src={Client2} className="img-fluid" alt="Client" />
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-4 col-xs-6">
-                <div className="client-logo">
-                  <img src={Client3} className="img-fluid" alt="Client" />
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-4 col-xs-6">
-                <div className="client-logo">
-                  <img src={Client4} className="img-fluid" alt="Client" />
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-4 col-xs-6">
-                <div className="client-logo">
-                  <img src={Client5} className="img-fluid" alt="Client" />
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-4 col-xs-6">
-                <div className="client-logo">
-                  <img src={Client6} className="img-fluid" alt="Client" />
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-4 col-xs-6">
-                <div className="client-logo">
-                  <img src={Client7} className="img-fluid" alt="Client" />
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-4 col-xs-6">
-                <div className="client-logo">
-                  <img src={Client8} className="img-fluid" alt="Client" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        <Clients />
       </main>
     </>
   );
