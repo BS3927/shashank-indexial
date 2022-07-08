@@ -1,7 +1,9 @@
 import React from "react";
 import CountUp from "./CountUp";
+import { useInView } from "react-intersection-observer";
 
 const Info = () => {
+  const { ref:myRef, inView:infoVisible} = useInView();
   return (
     <section id="why-us" className="wow fadeIn">
       <div className="container">
@@ -10,8 +12,10 @@ const Info = () => {
           <p> 10+ Fortune 150 Companies</p>
         </header>
 
-        <div className="row counters">
-          <div className="col-lg-3 col-6 text-center counter-up">
+        <div className="row counters" ref={myRef} >
+          {
+          infoVisible ? <>
+            <div className="col-lg-3 col-6 text-center counter-up">
             <CountUp start={0} end={280} timer={10} />
             <p>Clients</p>
           </div>
@@ -30,6 +34,9 @@ const Info = () => {
             <CountUp start={0} end={80} timer={20} />
             <p>Hard Workers</p>
           </div>
+
+          </> : ''
+        }
         </div>
       </div>
     </section>
