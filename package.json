@@ -9,11 +9,8 @@
     "bootstrap": "^4.6.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-<<<<<<< HEAD
     "react-intersection-observer": "^9.3.5",
-=======
     "react-elastic-carousel": "^0.11.5",
->>>>>>> f513f17f8f86210c3b358221063d696b3b5b04d4
     "react-owl-carousel": "^2.3.3",
     "react-router": "^5.2.0",
     "react-router-dom": "^6.0.0-beta.0",
