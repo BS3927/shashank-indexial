@@ -2,6 +2,7 @@ import React from "react";
 import Product1 from "../img/product.svg";
 import Product2 from "../img/product2.svg";
 import Info from "./Common";
+import Testimonials from "./Testimonials";
 
 const Products = () => {
   return (
@@ -230,46 +231,7 @@ const Products = () => {
         </section>
         <Info />
 
-        <section id="testimonials" class="section-bg">
-          <div class="container">
-            <header class="section-header">
-              <h3>Testimonials</h3>
-            </header>
-
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="owl-carousel testimonials-carousel wow fadeInUp">
-                  <div class="testimonial-item">
-                    <img
-                      src="img/testimonial-1.jpg"
-                      class="testimonial-img"
-                      alt="Testimonial"
-                    />
-                    <h3>Kiran G</h3>
-                    <h4>Ceo &amp; Founder</h4>
-                    <p>
-                      We are quite satisfied with the services given byIndexial
-                    </p>
-                  </div>
-
-                  <div class="testimonial-item">
-                    <img
-                      src="img/testimonial-2.jpg"
-                      class="testimonial-img"
-                      alt="Testimonial"
-                    />
-                    <h3>Sanket K</h3>
-                    <h4>Project Manager</h4>
-                    <p>
-                      Quality is always there. Top of the game in terms of that
-                      Indexial
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        <Testimonials />
       </main>
     </>
   );
