@@ -345,7 +345,7 @@ const Home = () => {
           </div>
         </section>
         <Info />
-        <section id="testimonials" className="section-bg">
+        {/* <section id="testimonials" className="section-bg">
           <div className="container">
             <header className="section-header">
               <h3>Testimonials</h3>
@@ -383,8 +383,8 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </section>
-        {/* <Testimonials /> */}
+        </section> */}
+        <Testimonials />
 
         <Clients />
       </main>
