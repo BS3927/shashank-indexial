@@ -75,10 +75,10 @@ const Footer = () => {
             <div class="col-lg-3 col-md-6 footer-contact">
               <h4>Contact Us</h4>
               <p>
-                1st Floor, Opps. Of Andhra Bank, Sahawas Road, Karve Nagar,
-                Pune-52. <br />
+                Office No.117, The Business Hub, Near Pruthvi Hotel, Kothrud,
+                Pune-38. <br />
                 <strong>Phone:</strong>
-                <a> &#43; 91-2025422118</a> <br />
+                <a> &#43; + 91-2029997645</a> <br />
                 <strong>Email:</strong> info@indexial.in
                 <br />
               </p>
