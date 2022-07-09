@@ -3,8 +3,6 @@ import AboutImg from "../img/about.svg";
 import AboutUs from "../img/aboutus.svg";
 import AboutUs2 from "../img/aboutus2.svg";
 import Movie from "../img/movie.gif";
-import testimonial1 from "../img/testimonial-1.jpg";
-import testimonial2 from "../img/testimonial-2.jpg";
 import Clients from "./Reusable";
 import Testimonials from "./Testimonials";
 
