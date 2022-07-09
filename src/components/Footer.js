@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Logo2 from "../img/logo2.svg";
 
 const Footer = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
+
   return (
     <footer id="footer">
       <div class="footer-top">
@@ -22,20 +26,40 @@ const Footer = () => {
 
             <div class="col-lg-2 col-md-6 footer-links">
               <h4>Useful Links</h4>
-              <ul>
-                <li>
+              <ul >
+                <li
+                  onClick={()=>{
+                    window.scrollTo({top: 0, left: 0, behavior: "smooth" })
+                  }} 
+                >
                   <a href="#/Home">Home</a>
                 </li>
-                <li>
+                <li
+                  onClick={()=>{
+                    window.scrollTo({top: 0, left: 0, behavior: "smooth" })
+                  }} 
+                >
                   <a href="#/About">About us</a>
                 </li>
-                <li>
+                <li
+                  onClick={()=>{
+                    window.scrollTo({top: 0, left: 0, behavior: "smooth" })
+                  }} 
+                >
                   <a href="#/Services">Services</a>
                 </li>
-                <li>
+                <li
+                  onClick={()=>{
+                    window.scrollTo({top: 0, left: 0, behavior: "smooth" })
+                  }} 
+                >
                   <a href="#/Products">Products</a>
                 </li>
-                <li>
+                <li
+                  onClick={()=>{
+                    window.scrollTo({top: 0, left: 0, behavior: "smooth" })
+                  }} 
+                >
                   <a href="#/Contact">Contact us</a>
                 </li>
               </ul>
