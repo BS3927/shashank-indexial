@@ -87,18 +87,8 @@ const Careers = () => {
             </div>
           </div>
         </section>
-        <section id="services" class="section-bg">
-          <div class="container">
-            <header class="section-header">
-              <h3>Current Openings</h3>
-              <p>...</p>
-            </header>
 
-            <div class="row">
-              <Jobs />
-            </div>
-          </div>
-        </section>
+        <Jobs />
       </main>
     </>
   );

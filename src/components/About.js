@@ -3,7 +3,7 @@ import AboutImg from "../img/about.svg";
 import AboutUs from "../img/aboutus.svg";
 import AboutUs2 from "../img/aboutus2.svg";
 import Movie from "../img/movie.gif";
-import Clients from "./Reusable";
+import Clients, { CompanyInfo } from "./Reusable";
 import Testimonials from "./Testimonials";
 
 const About = () => {
@@ -103,106 +103,9 @@ const About = () => {
         </section>
 
         {/* A COMPANY BUILT FOR YOU */}
-        <section id="services" className="section-bg">
-          <div className="container">
-            <header className="section-header">
-              <h3>A Company built for you</h3>
-              <p>
-                At Indexial, we are <b>Indexial Solutions</b> : focused on
-                understanding challenges, aware of opportunities, driven to
-                solve for you.
-              </p>
-            </header>
 
-            <div className="row">
-              <div
-                className="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp"
-                data-wow-duration="1.4s"
-              >
-                <div className="box">
-                  <div className="icon">
-                    <i
-                      className="ion-ios-analytics-outline"
-                      style={{ color: "#ff689b" }}
-                    ></i>
-                  </div>
-                  <h4 className="title">
-                    <a href="">Our culture</a>
-                  </h4>
-                  <p className="description">
-                    Shaped by a diverse group of entrepreneurial people working
-                    together to create a better way with you.
-                  </p>
-                </div>
-              </div>
-              <div
-                className="col-md-6 col-lg-5 wow bounceInUp"
-                data-wow-duration="1.4s"
-              >
-                <div className="box">
-                  <div className="icon">
-                    <i
-                      className="ion-ios-bookmarks-outline"
-                      style={{ color: "#e9bf06" }}
-                    ></i>
-                  </div>
-                  <h4 className="title">
-                    <a href="">Our partners</a>
-                  </h4>
-                  <p className="description">
-                    We work with companies on the vanguard of technology to
-                    drive your business forward.
-                  </p>
-                </div>
-              </div>
+        <CompanyInfo />
 
-              <div
-                className="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp"
-                data-wow-delay="0.1s"
-                data-wow-duration="1.4s"
-              >
-                <div className="box">
-                  <div className="icon">
-                    <i
-                      className="ion-ios-paper-outline"
-                      style={{ color: "#3fcdc7" }}
-                    ></i>
-                  </div>
-                  <h4 className="title">
-                    <a href="">Our skill developers</a>
-                  </h4>
-                  <p className="description">
-                    We support lifelong learning in the India and around the
-                    world, preparing people to make the most of the technology
-                    that can forge our shared future.
-                  </p>
-                </div>
-              </div>
-              <div
-                className="col-md-6 col-lg-5 wow bounceInUp"
-                data-wow-delay="0.1s"
-                data-wow-duration="1.4s"
-              >
-                <div className="box">
-                  <div className="icon">
-                    <i
-                      className="ion-ios-speedometer-outline"
-                      style={{ color: "#41cf2e" }}
-                    ></i>
-                  </div>
-                  <h4 className="title">
-                    <a href="">Our growth</a>
-                  </h4>
-                  <p className="description">
-                    Our ambition will always be to see and seize new
-                    opportunities that serve our clients and drive sustained
-                    business performance for Indexial over the long term.{" "}
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
         {/* #services  */}
 
         {/* Team Journey */}
