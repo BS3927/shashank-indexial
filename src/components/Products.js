@@ -2,6 +2,7 @@ import React from "react";
 import Product1 from "../img/product.svg";
 import Product2 from "../img/product2.svg";
 import Info from "./Common";
+import { ProductItems } from "./Reusable";
 import Testimonials from "./Testimonials";
 
 const Products = () => {
@@ -103,132 +104,9 @@ const Products = () => {
             </div>
           </div>
         </section>
-        <section id="services" class="section-bg">
-          <div class="container">
-            <header class="section-header">
-              <h3>
-                Passion of creating Mansion of technologies <br /> in your
-                minds.
-              </h3>
-            </header>
 
-            <div class="row">
-              <div
-                class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp"
-                data-wow-duration="1.4s"
-              >
-                <div class="box">
-                  <div class="icon">
-                    <i
-                      class="ion-ios-cloud-upload-outline"
-                      style={{ color: "#ff689b" }}
-                    ></i>
-                  </div>
-                  <h4 class="title">
-                    <a href="">Cloud base HRMS</a>
-                  </h4>
-                  <p class="description">
-                    HRMS or Human Resource Management System as it is usually
-                    known can be described as an arrangement of all the
-                    processes and systems that are required in order to
-                    proficiently manage the HR (human resource) department of an
-                    organization.
-                    <br />
-                    <a href="https://drive.google.com/open?id=1O7DdJhIiQ5Pn6qFTNWBh3u8fguV_s654">
-                      {" "}
-                      <button class="button button100">know More</button>
-                    </a>
-                  </p>
-                </div>
-              </div>
-              <div
-                class="col-md-6 col-lg-5 wow bounceInUp"
-                data-wow-duration="1.4s"
-              >
-                <div class="box">
-                  <div class="icon">
-                    <i
-                      class="ion-ios-analytics-outline "
-                      style={{ color: "#e9bf06" }}
-                    ></i>
-                  </div>
-                  <h4 class="title">
-                    <a href="">ERP System</a>
-                  </h4>
-                  <p class="description">
-                    ERP software is considered to be a type of enterprise
-                    application, that is software designed to be used by larger
-                    businesses and often requires dedicated teams to customize
-                    and analyze the data and to handle upgrades and deployment.
-                    <br />
-                    <a href="https://drive.google.com/open?id=1Nws_L-iBQibLM2cyXfIAWwcxgK6pDaiB">
-                      {" "}
-                      <button class="button button100">know More</button>
-                    </a>
-                  </p>
-                </div>
-              </div>
+        <ProductItems />
 
-              <div
-                class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp"
-                data-wow-delay="0.1s"
-                data-wow-duration="1.4s"
-              >
-                <div class="box">
-                  <div class="icon">
-                    <i
-                      class="ion-android-checkbox-outline"
-                      style={{ color: "#3fcdc7" }}
-                    ></i>
-                  </div>
-                  <h4 class="title">
-                    <a href="">Point Of Sale (POS)</a>
-                  </h4>
-                  <p class="description">
-                    Meet the most versatile POS system for unifying your
-                    in-store and online sales. Delight customers at every
-                    touchpoint and win back time to focus on what matters most
-                    to your business. provides 24/7 support and Make informed
-                    decisions quickly also Cut down repetitive tasks off.
-                    <br />
-                    <a href="https://drive.google.com/open?id=1_eWbarXeqS21abM0XTPErMXlRUbzBPtu">
-                      {" "}
-                      <button class="button button100">know More</button>
-                    </a>
-                  </p>
-                </div>
-              </div>
-              <div
-                class="col-md-6 col-lg-5 wow bounceInUp"
-                data-wow-delay="0.1s"
-                data-wow-duration="1.4s"
-              >
-                <div class="box">
-                  <div class="icon">
-                    <i
-                      class="ion-android-apps"
-                      style={{ color: "#41cf2e" }}
-                    ></i>
-                  </div>
-                  <h4 class="title">
-                    <a href="">Housing Society Mnanagement System</a>
-                  </h4>
-                  <p class="description">
-                    Indexial Solution's housing management software solutions
-                    provide you with the flexibility to automate costly
-                    administration tasks and increase the visibility of tenant,
-                    supplier and contractor information.
-                    <br />
-                    <a href="https://drive.google.com/open?id=1iRhk4nCLfYMeC8y9VFec8-wN8uZUaqD6">
-                      {" "}
-                      <button class="button button100">know More</button>
-                    </a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
         <Info />
 
         <Testimonials />
