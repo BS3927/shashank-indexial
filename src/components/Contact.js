@@ -59,7 +59,7 @@ const Contact = () => {
                   <p>
                     <b> Our Office Location</b>
                     <br />
-                    Office No.117/118,
+                    Office No.117,
                     <br />
                     The Business Hub,
                     <br />

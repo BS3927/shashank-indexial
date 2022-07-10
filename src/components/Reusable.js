@@ -7,6 +7,65 @@ import Client5 from "../img/clients/client-5.png";
 import Client6 from "../img/clients/client-6.png";
 import Client7 from "../img/clients/client-7.png";
 import Client8 from "../img/clients/client-8.png";
+import Career2 from "../img/career.svg";
+
+export const CareerList = () => {
+  const CareerData = [
+    {
+      title: "How We Work",
+      icon: "fa fa-wpforms",
+      desc: "Working hard for things that we don't care about is stress, but working hard for something we love is called passion! At Haptik we passionately solve problems in order to be able to move faster and don't shy away from breaking things!",
+      delay: "0s",
+      href: "#/Careers",
+    },
+    {
+      title: "Getting Things Done",
+      icon: "fa fa-thumbs-o-up",
+      desc: "Strategize, execute and ship it! Done? Onto the next assignment. Move at breakneck pace.",
+      delay: "0.2s",
+      href: "#/Careers",
+    },
+    {
+      title: "Enjoy Yourself",
+      icon: "fa fa-hand-peace-o",
+      desc: "While we are working hard, it is also important to take breaks to not get too worked up. Stand up and walk away from your work stations, play a game, chat a little and then get back to work with double the energy!",
+      delay: "0.4s",
+      href: "#/Careers",
+    },
+  ];
+  return (
+    <section id="about">
+      <div class="container">
+        <header class="section-header">
+          <h3>Work at indexial Solutions!</h3>
+          <p>Honesty, ownership and perseverance is how we go about it.</p>
+        </header>
+
+        <div class="row about-container">
+          <div class="col-lg-6 content order-lg-1 order-2">
+            {CareerData.map(function (o, i) {
+              return (
+                <div class="icon-box wow fadeInUp" data-wow-delay={o.delay}>
+                  <div class="icon">
+                    <i class={o.icon}></i>
+                  </div>
+                  <h4 class="title">
+                    <a href={o.href}>{o.title}</a>
+                  </h4>
+                  <p class="description">{o.desc}</p>
+                </div>
+              );
+            })}
+          </div>
+
+          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+            <img src={Career2} class="img-fluid" alt=" Career" />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
 
 export const ProductItems = () => {
   const ProductList = [
