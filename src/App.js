@@ -11,6 +11,7 @@ import NewsandMedia from "./components/NewsandMedia";
 import Partners from "./components/Partners";
 import Contact from "./components/Contact";
 import { Route, Routes, HashRouter } from "react-router-dom";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
       </HashRouter>
 
       <Footer />
+      {/* <Navbar/> */}
     </div>
   );
 }
