@@ -261,7 +261,9 @@ a:hover {
   --------------------------------------------------------------*/
 
 /* Desktop Navigation */
-
+.fixed-top > a{
+  pointer-events: none;
+}
 .main-nav,
 .main-nav * {
   margin: 0;
